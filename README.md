@@ -7,6 +7,15 @@ This is an AI-based **FAQ support agent** built using **Streamlit** and **Google
 
 ---
 
+## 🎥 Demo Video
+
+👉 [Click here to watch the demo video on Google Drive](https://drive.google.com/file/d/1z7EG2Ad4rCaHEOCZG0k3Y6xq474aTN8c/view?usp=sharing)
+
+This video demonstrates:
+- Asking questions via chat
+- Getting Gemini-powered answers
+
+
 ## 🚀 Live Demo
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-powered-voice-support-agent-jcs4fqmx62rm3cyvojqom4.streamlit.app/)
