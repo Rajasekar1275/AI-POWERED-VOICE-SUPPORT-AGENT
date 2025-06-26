@@ -1,28 +1,41 @@
-# 📊 AI-Powered Chat Support Agent (Gemini + Streamlit)
+# 🤖 AI-Powered Chat Support Agent (Gemini + Streamlit)
 
-This project is an **AI customer support assistant** powered by **Google Gemini API** and deployed using **Streamlit Cloud**.  
-It allows users to ask questions (via text) based on a provided **FAQ PDF**, and receive instant intelligent answers.
+This is an AI-based **FAQ support agent** built using **Streamlit** and **Google's Gemini API**. It allows users to ask questions from a PDF-based FAQ document and receive accurate, real-time answers.
 
-> 🎯 This version focuses on **text + chart output only**, as Streamlit Cloud currently doesn't support microphone or audio playback.
+> ✨ Current version supports **chat-based interaction only**.  
+> 🔊 Voice & audio features will be added in future releases (see below).
 
 ---
 
-## 🚀 Live App
+## 🚀 Live Demo
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-powered-voice-support-agent-jcs4fqmx62rm3cyvojqom4.streamlit.app/)
 
-👉 Click the badge above to try the live chat agent.
+👉 Click the badge above to try the app live.
 
 ---
 
 ## 📁 Features
 
-✅ Upload and parse PDF FAQs  
-✅ Ask questions via text input  
-✅ AI finds relevant answers using vector search (FAISS)  
-✅ Gemini API powers natural language understanding  
-✅ Clean Streamlit UI with minimal dependencies  
-✅ Deployment-ready with `.env` security
+✅ Ask questions via chat (text input)  
+✅ AI understands context and responds intelligently  
+✅ Gemini API powers natural language reasoning  
+✅ Streamlit-based interactive frontend  
+✅ Secure key handling using `.env` or Streamlit secrets
+
+---
+
+## 🔒 Limitations & Future Enhancements
+
+| Feature             | Status   | Notes |
+|---------------------|----------|-------|
+| 💬 Text/Chat input   | ✅ Active | Chat input works fully |
+| 🎤 Microphone input  | 🚫 Coming soon | Will be added with Render or Railway support |
+| 🔊 Text-to-speech    | 🚫 Planned | Will work once deployed to a platform with audio support |
+| 📱 Multi-device UX   | 🧪 Improving | UI will be optimized for mobile/tablets |
+
+> 🔧 Currently hosted on **Streamlit Cloud**, which does not support real-time microphone/audio.  
+> 🔜 Voice features will be enabled in future versions via **Render** or **Fly.io**.
 
 ---
 
@@ -31,17 +44,17 @@ It allows users to ask questions (via text) based on a provided **FAQ PDF**, and
 | Component       | Tool / Library                     |
 |----------------|------------------------------------|
 | LLM             | [Google Gemini API](https://ai.google.dev/) |
-| Framework       | [Streamlit](https://streamlit.io) |
-| Vector DB       | FAISS                             |
-| NLP Embeddings  | HuggingFace Transformers          |
-| Document Loader | LangChain PDF Loader              |
-| Environment     | Python + `.env` + `requirements.txt` |
+| Frontend        | [Streamlit](https://streamlit.io) |
+| Vector Search   | FAISS                             |
+| Embeddings      | HuggingFace Transformers          |
+| PDF Loader      | LangChain                         |
+| Deployment      | Streamlit Cloud                   |
 
 ---
 
-## 🛠️ Local Setup Instructions
+## 🛠️ Setup Instructions
 
-### ✅ 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Rajasekar1275/AI-POWERED-VOICE-SUPPORT-AGENT.git
