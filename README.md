@@ -9,7 +9,7 @@ It allows users to ask questions (via text) based on a provided **FAQ PDF**, and
 
 ## 🚀 Live App
 
-[![Open in Streamlit](https://ai-powered-voice-support-agent-jcs4fqmx62rm3cyvojqom4.streamlit.app/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-powered-voice-support-agent-jcs4fqmx62rm3cyvojqom4.streamlit.app/)
 
 👉 Click the badge above to try the live chat agent.
 
@@ -39,3 +39,10 @@ It allows users to ask questions (via text) based on a provided **FAQ PDF**, and
 
 ---
 
+## 🛠️ Local Setup Instructions
+
+### ✅ 1. Clone the repository
+
+```bash
+git clone https://github.com/Rajasekar1275/AI-POWERED-VOICE-SUPPORT-AGENT.git
+cd AI-POWERED-VOICE-SUPPORT-AGENT
